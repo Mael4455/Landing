@@ -1,0 +1,170 @@
+/* Global styles */
+<style>
+    /* General body styling */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    /* Header styling */
+    .header {
+      text-align: center;
+      padding: 20px;
+      background-color: #2b6cb0;
+      color: white;
+      border-bottom: 4px solid rgba(0, 0, 0, 0.1);
+    }
+
+    /* Profile section styling */
+    .profile {
+      background: white;
+      padding: 30px;
+      margin: 20px auto;
+      max-width: 600px;
+      border-radius: 10px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .profile-image {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border-radius: 50%;
+      border: 3px solid #2b6cb0;
+    }
+
+    .profile-description {
+      margin: 10px 0;
+    }
+
+    /* Hobbies, Projects, Contact section styling */
+    section {
+      background: white;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 800px;
+      border-radius: 10px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .section-title {
+      margin-top: 0;
+      color: #2b6cb0;
+    }
+
+    /* Button styling */
+    .button-link {
+      display: inline-block;
+      color: white;
+      background-color: #2b6cb0;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 20px;
+      transition: background-color 0.3s ease;
+    }
+
+    .button-link:hover {
+      background-color: #1a4f8c;
+    }
+
+    /* Social links styling */
+    .social-links {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 0;
+      margin-top: 10px;
+    }
+
+    .social-links li {
+      margin: 0 10px;
+    }
+
+    .social-link {
+      text-decoration: none;
+      color: #2b6cb0;
+    }
+
+    .social-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f4f4f9;
+}
+
+/* Header */
+.header {
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.highlight-title {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.name-highlight {
+  color: #ffd700;
+}
+
+/* Profile Section */
+.profile {
+  text-align: center;
+  padding: 20px;
+}
+
+.profile-image {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile-description {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.keyword-highlight {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.button-link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 15px;
+  background: #007bff;
+  color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* Sections */
+.section-title {
+  font-size: 1.8em;
+  text-align: center;
+  color: #444;
+}
+
+.hobby-highlight, .project-highlight {
+  color: #ff4500;
+  font-weight: bold;
+}
+
+/* Contact */
+.contact-highlight {
+  color: #32cd32;
